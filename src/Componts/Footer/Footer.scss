@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+    list-style-type: none;
+}
+
+.footer-dev {
+    padding-bottom: 40px;
+    display: flex;
+    
+   & div {
+    margin-left: 200px;
+
+        & span {
+            display: block;
+            text-align: left;
+        }
+
+        & input {
+            margin-top: 50px;
+            width: 650px;
+            border: none;
+            outline: none;
+            border-bottom: 1px rgba(128, 128, 128, 0.411) solid;
+            margin-right: 30px;
+        }
+
+        & input::placeholder {
+            font-size:  18px;
+        }
+
+   }
+
+    & ul {
+        font-size: 12px;
+        margin-top: -20px;
+        text-align: left;
+
+        & li {
+            cursor: pointer;
+
+        }
+
+        & :first-child {
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+    }
+    
+}
+
+.double-footer {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.219);
+    height: 38px;
+    
+    & ul {
+        display: flex;
+        margin-left: 70px;
+
+         & :not(:first-child)
+        {
+            border-left: 1px rgba(0, 0, 0, 0.308) solid;
+            padding-left: 20px;
+        }
+
+        & li {
+            margin-left: 40px;
+            font-size: 12px;
+            cursor: pointer;
+            color: rgba(128, 128, 128, 0.836);
+            align-self: center; 
+        }
+    }
+}
+
+.inta {
+    font-weight: 700 ;
+    font-family: 'Roboto';
+}
+
+.inta:hover {
+    background: linear-gradient(120deg , #F58529 ,#FEDA77,#DD2A7B,#8134AF ,#515BD4);
+    background-clip: text;
+    color: transparent;
+}
+
+
+.face {
+    font-weight: 700 ;
+    font-family: 'Roboto';
+}
+
+.face:hover {
+    color: blue;
+}
+
+
+.twit {
+    font-weight: 700 ;
+    font-family: 'Roboto';
+}
+
+.twit:hover {
+    color: skyblue;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;900&display=swap');
+
+.contain {
+    max-width: 1440;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.Clothes-dic {
+    display: flex;
+    padding-bottom: 100px;
+    text-align: center;
+
+    & span {
+        display: block;
+    }
+   
+    & :first-child {
+        width: 400px;
+        margin-right: 25px;
+        margin-left: 25px;
+
+        & :nth-child(2) {
+            font-weight: 500;
+        }
+        & :nth-child(3) {
+            font-weight: 500;
+            font-size: 10px;
+        }
+        & :nth-child(4) {
+            font-weight: 500;
+            font-size: 10px;
+        }
+
+
+    }
+
+    & :nth-child(2)
+    {
+        width: 400px;
+        margin-right: 25px;
+
+        & :nth-child(2) {
+            font-weight: 500;
+        }
+        & :nth-child(3) {
+            font-weight: 500;
+            font-size: 10px;
+        }
+
+    }
+
+    & :last-child {
+        width: 400px;
+        & :nth-child(2) {
+            font-weight: 500;
+        }
+        & :nth-child(3) {
+            font-weight: 500;
+            font-size: 10px;
+        }
+
+        
+    }
+    
+}

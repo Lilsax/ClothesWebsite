@@ -1,0 +1,63 @@
+
+.slider-dev {
+    width: 100%;
+    background-color: #F3F3F3;
+    display: flex ;
+}
+
+.first-slider {
+    width: 75%;
+    height: 602px;
+    font-family: 'Titillium Web', sans-serif;
+
+
+    & :nth-child(1) {
+        display: block;
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 50px;
+        font-size: 10px;
+        
+    }
+
+    & :nth-child(2)
+    {
+        display: block  ;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 50px;
+        font-size: 35px;
+
+    }
+
+    & :nth-child(3)
+    {
+        display: block  ;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 50px;
+        font-size: 15px;
+
+    }
+}
+
+.sec-slider {
+    width: 25%;
+
+    & :nth-child(2) {
+        display: block  ;
+        text-align: left;
+        font-size: 10px;
+        color: gray;
+        width: 300px;
+    }
+
+   
+}
+
+.imageSlider {
+    display: block;
+    width: 280px;
+    height: 280px;
+    margin-top: 250px;
+}

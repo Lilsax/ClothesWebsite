@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+
+.contain {
+    max-width: 1440;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+.header {
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+
+.images-holder {
+    display: flex;
+
+    & :first-child {
+        width: 50%;
+        height: 100vh;
+    }
+    & :last-child {
+        width: 50%;
+        height: 100vh;
+    }
+
+   
+}
+
+.text-holder {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    color: white;
+    text-align: center;
+
+    & :nth-child(1) {
+        width: 536px;
+        height: 98px;
+        font-size: 87px;
+        font-weight: 700 ;
+        font-family: 'Roboto';
+        
+    }
+    & :nth-child(3) {
+        width: 218px;
+        height: 98px;
+        font-size: 87px;
+        font-weight: 400;
+        font-family: 'Roboto';
+        width: 382px;
+        font-size: 87px;
+    }
+
+    & :nth-child(4) {
+        font-weight: 200 ;
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: 700 ;
+        font-family: 'Roboto';
+
+        
+    }
+
+    & :nth-child(5) {
+        width: 138px;
+        height: 38px;
+        font-weight: 200;
+        border: none;
+        outline: none;
+        margin-left: 15px;
+        font-family: 'Roboto';
+
+        
+    }
+
+    & :nth-child(6) {
+        position: absolute;
+        width: 306;
+        margin-left: 20px;
+        font-size: 15px;
+        cursor: pointer;
+        left: 0;
+        margin-left: -350px;
+        margin-top: 50px;
+
+        
+    }
+}

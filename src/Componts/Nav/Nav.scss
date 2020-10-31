@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;900&display=swap');
+
+.contain {
+    max-width: 1024;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.activehh {
+  
+        display: inline-block;
+        font-size: 25px;
+        font-weight: 700;
+        margin-right: 128px;
+        letter-spacing: 0.5cm;
+        color: black;
+        font-family: 'Roboto';
+        padding-bottom: 10px;
+
+    
+}
+
+.active {
+    background-color: white;
+    box-shadow: 10px 0px 50px rgba(128, 128, 128, 0.473);
+
+    
+    & span:hover  {
+        font-weight: 200;
+        color: black;
+        cursor: pointer;
+    }
+
+    & span {
+        color: black;
+    }
+
+    & .hhh {
+        color: black;
+    }
+}
+
+.nav-class {
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    top: -25px;
+
+    .female {
+        color: white;
+        cursor: pointer;
+    }
+
+    span:hover  {
+        font-weight: 200;
+        color: white;
+        cursor: pointer;
+    }
+
+    & .hhh {
+        display: inline-block;
+        font-size: 25px;
+        font-weight: 700;
+        margin-right: 128px;
+      
+        letter-spacing: 0.5cm;
+        color: white;
+        font-family: 'Roboto';
+        padding-bottom: 20px;
+
+
+    }
+
+    & .first-nav-div {
+        color: white;
+        display: flex;
+        font-weight: 200;
+        justify-content: space-between;
+        margin-left: 30px;
+        
+        & :not(:last-child) {
+            margin-right: 40px;
+        }
+
+        & :first-child:hover ~ .woman-div {
+            visibility: visible;
+            font-weight: 400;
+            cursor: pointer;
+        }
+    }
+
+    & .second-nav-div {
+        font-weight: 200;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 30px;
+        
+
+
+        & :not(:last-child) {
+            margin-right: 40px;
+        }
+    }
+
+        & .woman-div-hidden {
+            overflow: hidden;
+            visibility: hidden;
+            width: 100%;
+            color: black;
+            font-weight: 200;
+            background-color: white;
+            display: flex;
+            position: absolute;
+            top: 70px;
+            margin-left: 90px;
+
+            & div {
+                display: flex;
+            }
+
+            & li {
+                list-style-type: none;
+            }
+
+            & li:hover {
+                border-bottom: 1px rgba(0, 0, 0, 0.651) solid;
+                cursor: pointer;
+            }
+        }
+        
+        & .woman-div-show ,.woman-div-show:hover {
+            z-index: 10;
+            width: 40%;
+            border-radius: 10px;
+            color: black;
+            font-weight: 200;
+            background-color: rgba(255, 255, 255, 0.829);
+            display: flex;
+            position: absolute;
+            top: 52px;
+            & div {
+                display: flex;
+            }
+
+            & ul {
+                margin-right: 60px;
+            }
+
+            & li {
+                list-style-type: none;
+                margin-bottom: 5px;
+            }
+
+            & li:first-child {
+                font-weight: 400;
+            }
+
+            & li:last-child {
+                font-weight: 400;
+                color: red;
+            }
+
+            & li:hover {
+                border-bottom: 1px rgba(0, 0, 0, 0.212) solid;
+                cursor: pointer;
+            }
+        }
+
+}
